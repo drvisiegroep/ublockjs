@@ -1,1 +1,1 @@
-document.querySelector("banner_ad").className = "banner_ad1";
+document.getElementById("originalDiv").className = "banner_ad1";
