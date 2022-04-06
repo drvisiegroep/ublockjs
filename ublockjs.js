@@ -3,7 +3,7 @@
 console.log('ublock scriptlet');
 // window.addEventListener('DOMContentLoaded', (event) => {
 
-//     document.getElementById("originalDiv").className = "banner_ad1";
+document.getElementById("originalDiv").className = "banner_ad1";
 
 // });
 
