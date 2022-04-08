@@ -1,13 +1,13 @@
 /// ublockjs.js
 /// alias rm_ad.js
 
-window.addEventListener('DOMContentLoaded', (event) => {
+(function() {
   document.getElementById("originalDiv").className = "bla";
   console.log('ublock scriptlet');
 });
 
 /// muted.js
-window.addEventListener('DOMContentLoaded', (event) => {
+(function() {
   document.querySelector('.SmartxPlayer__unmuteVideoWrapperDesktop__1Dk76').className = "bla";
   console.log('ublock scriptlet');
 });
