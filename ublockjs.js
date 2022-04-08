@@ -4,7 +4,6 @@
 
   /// ublockjs.js
   /// alias rm_ad.js
-
   (function() {
     document.getElementById("originalDiv").className = "bla";
     console.log('ublock scriptlet');
