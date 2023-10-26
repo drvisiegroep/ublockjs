@@ -2,7 +2,9 @@
 /// alias cb.js
 window.addEventListener('DOMContentLoaded', (event) => {
   document.getElementById("originalDiv").className = "bla";
-  document.getElementByClassName("ad-modal").className = "bla";
+  setTimeout(function(){
+    document.getElementByClassName("ad-modal").className = "bla";    
+  }, 3000)
   console.log('ublock scriptlet');
 });
 
